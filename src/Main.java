@@ -2,7 +2,7 @@
 public class Main {
 	public static void main(String[] args) {
 		// BookShelf の大きさを指定
-		BookShelf bookShelf = new BookShelf(4);
+		BookShelf bookShelf = new BookShelf();
 		bookShelf.appendBook(new Book("「人間嫌い」のルール"));
 		bookShelf.appendBook(new Book("孤独について"));
 		bookShelf.appendBook(new Book("人生を〈半分〉降りる"));
